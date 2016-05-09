@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/signStudent"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+
+                android:background="@drawable/bg_icon"
+                android:gravity="center"
+                android:text="T"
+                android:textColor="#FFFFFF"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="New Text"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/nameStudent2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="New Text"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/gradeStudent2" />
+            <RadioGroup
+
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:id="@+id/rg"
+                >
+                <RadioButton
+                    android:text="Co"
+                    android:id="@+id/codihoc"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:text="Khong"
+                    android:id="@+id/kodihoc"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

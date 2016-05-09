@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:id="@+id/classwasregister"
+        android:layout_marginTop="83dp"
+        android:background="#fbafba"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/RegisterClass" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register Class "
+        android:id="@+id/RegisterClass"
+        android:layout_marginTop="94dp"
+        android:background="#fbafba"
+        android:layout_below="@+id/classwasregister"
+        android:layout_alignStart="@+id/Infor" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Infomation Teacher"
+        android:id="@+id/Infor"
+        android:background="#fbafba"
+        android:layout_below="@+id/RegisterClass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp" />
+</RelativeLayout>

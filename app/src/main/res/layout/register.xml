@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Register"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/create"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name:"
+        android:ems="10"
+        android:id="@+id/nameteacher"
+        android:layout_marginTop="79dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email:"
+
+        android:ems="10"
+        android:id="@+id/emailteacher"
+        android:layout_below="@+id/nameteacher"
+        android:layout_alignEnd="@+id/nameteacher"
+        android:layout_marginTop="62dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password:"
+        android:ems="10"
+        android:id="@+id/passwordteacher"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm Password:"
+        android:ems="10"
+        android:id="@+id/confirmpassword"
+        android:layout_below="@+id/passwordteacher"
+        android:layout_alignStart="@+id/passwordteacher"
+        android:layout_marginTop="55dp" />
+
+
+</RelativeLayout>

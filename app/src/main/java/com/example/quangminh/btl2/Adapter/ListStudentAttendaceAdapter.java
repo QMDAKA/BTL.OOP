@@ -96,6 +96,7 @@ public class ListStudentAttendaceAdapter extends BaseAdapter {
         RadioButton radioButton;
         TextView sign;
     }
+    // add comment
     boolean checkIdOfArrayListStudent(long Id){
         for(int i=0;i<listID.size();i++){
             if(Id==listID.get(i)){
